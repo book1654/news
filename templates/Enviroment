@@ -14,12 +14,7 @@
     <div id='main'>
       <article>
           <img src="">Image here</img>
-          <h1>Topic of the day: {{ topic }}</h1>
-          <button>Enviroment</button>
-          <button>Equality</button>
-          <button>Feminism</button>
-          <button>Education</button>
-          <button>Science</button>
+          <h1>Enviroment</h1>
           <div>
            {% for article in articles %}
             <div>{{article["description"]}}</div>
